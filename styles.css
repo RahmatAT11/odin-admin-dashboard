@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+  grid-template-areas: 
+    "sidebar header header header header header"
+    "sidebar main main main main main"
+    "sidebar main main main main main"
+    "sidebar main main main main main"
+    "sidebar main main main main main"
+    "sidebar main main main main main"
+  ;
+
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+}
+
+#header {
+  grid-area: header;
+  background-color: red;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: yellow;
+}
+
+#main {
+  grid-area: main;
+  background-color: green;
+}
