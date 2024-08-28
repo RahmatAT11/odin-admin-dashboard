@@ -95,6 +95,7 @@ body {
   background-color: red;
 }
 
+/* Sidebar */
 #sidebar {
   grid-area: sidebar;
   background-color: #1892d3;
