@@ -98,7 +98,49 @@ body {
 /* Sidebar */
 #sidebar {
   grid-area: sidebar;
+
+  height: 100vh;
+  padding-left: 20px;
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 48px;
+
   background-color: #1892d3;
+  color: #fefefe;
+
+  font-size: 1.2rem;
+}
+
+.icon-container {
+  padding-left: 0;
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.icon-container li,
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  align-items: center;
+}
+
+.icon-logo + .icon-text {
+  font-size: 1.8rem;
+}
+
+.icon-logo {
+  width: 50px;
+}
+
+.icon {
+  width: 30px;
 }
 
 #main {
